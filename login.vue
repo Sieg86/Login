@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <LoginSynchrone
+    <LoginComponent
       v-on:custom-event-name="onChildClick"
       v-if="isHidden === false"
     />
